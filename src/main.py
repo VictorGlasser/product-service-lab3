@@ -34,3 +34,24 @@ async def get_products():
 # Run the server (equivalent to warp::serve)
 if __name__ == "__main__":
     uvicorn.run(app, host="0.0.0.0", port=PORT)
+
+'''
+install dependencies (if not already):
+
+pip install fastapi uvicorn python-dotenv
+
+
+Create a .env file (optional):
+
+PORT=8080
+
+
+Run the server:
+
+python main.py
+
+
+Open your browser or use curl:
+
+http://localhost:8080/products
+'''
